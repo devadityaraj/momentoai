@@ -1,0 +1,31 @@
+{
+  "rules": {
+    "prompts": {
+      ".read": false,
+      ".write": "auth != null",
+      "$promptId": {
+        ".validate": "newData.hasChildren(['questionID', 'userID', 'message', 'timestamp']) && newData.child('userID').val() == auth.uid"
+      }
+    },
+    "results": {
+      ".read": "auth != null",
+      ".write": false
+    },
+    "promptcondition": {
+      ".read": "auth != null",
+      ".write": false
+    },
+    "serverstatus": {
+      ".read": "auth != null",
+      ".write": false
+    },
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$uid": {
+        ".read": "$uid == auth.uid",
+        ".write": "$uid == auth.uid"
+      }
+    }
+  }
+}
