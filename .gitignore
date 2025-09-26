@@ -7,6 +7,9 @@
 /.next/
 /out/
 
+#backend server
+/python
+
 # production
 /build
 

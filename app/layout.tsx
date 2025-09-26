@@ -8,7 +8,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Momento AI - Everything Starts with a Project",
-  description: "AI-powered chat interface for creative project development",
+  description: "Momento AI is a GPT project under development for general coding, grammer, maths/reasoning, etc",
   generator: "Momento AI",
 }
 
