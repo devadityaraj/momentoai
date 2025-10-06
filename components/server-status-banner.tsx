@@ -18,7 +18,7 @@ export function ServerStatusBanner() {
       if (snapshot.exists()) {
         const status = snapshot.val() as ServerStatus
         setServerStatus(status)
-        setShowBanner(status.status === "Down")
+        setShowBanner(status.status === "offline" || server.status === "error")
       }
     })
 
