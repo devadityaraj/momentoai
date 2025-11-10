@@ -8,7 +8,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please send an email to security@momentoai.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability, please send an email to adityaraj94505@gmail.com All security vulnerabilities will be promptly addressed.
 
 ## Security Measures
 
@@ -62,8 +62,3 @@ If you discover a security vulnerability, please send an email to security@momen
 4. **Eradication** - Remove threats and vulnerabilities
 5. **Recovery** - Restore normal operations
 6. **Lessons Learned** - Document and improve
-
-## Security Contacts
-
-- Security Team: security@momentoai.com
-- Emergency: +1-XXX-XXX-XXXX

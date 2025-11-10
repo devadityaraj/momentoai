@@ -6,6 +6,7 @@ import { Header } from "@/components/header"
 import { LandingHero } from "@/components/landing-hero"
 import { ChatInterface } from "@/components/chat-interface"
 import { ServerStatusBanner } from "@/components/server-status-banner"
+import Footer  from "@/components/footer"
 
 export default function HomePage() {
   const [chatMode, setChatMode] = useState(false)
@@ -30,6 +31,7 @@ export default function HomePage() {
             <ChatInterface initialPrompt={initialPrompt} />
           )}
         </main>
+        <Footer />
       </div>
     </AuthGuard>
   )
